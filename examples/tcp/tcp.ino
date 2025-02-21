@@ -41,7 +41,7 @@ void setup() {
   Serial.println(mac_address.ToString());
 
   Serial.println("wifi connecting...");
-  err = g_net_manager.ConnectWifi(WIFI_SSID, WIFI_PASSWD);
+  ret = g_net_manager.ConnectWifi(WIFI_SSID, WIFI_PASSWD);
   if (ret != em::kOK) {
     Serial.print("wifi connect failed: ");
     Serial.println(ToString(ret));
