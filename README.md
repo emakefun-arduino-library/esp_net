@@ -2,8 +2,8 @@
 
 ## Example
 
-- [ConnectWPA](exmaples/connect_wpa/connect_wpa.ino) - Connects to a specified Wi-Fi network, and periodically prints the local IP address, MAC address, SSID, and BSSID.
+- [ConnectWPA](examples/connect_wpa/connect_wpa.ino) - Connects to a specified Wi-Fi network, and periodically prints the local IP address, MAC address, SSID, and BSSID.
 
-- [TCP](exmaples/tcp/tcp.ino) -  TCP communication example
+- [TCP](examples/tcp/tcp.ino) -  Establishing a TCP connection and sending/receiving data.
 
-- [UDP](exmaples/udp/udp.ino) -  UDP communication example
+- [UDP](examples/udp/udp.ino) -  Establishing a UDP connection and sending/receiving data.
