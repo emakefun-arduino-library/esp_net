@@ -5,7 +5,7 @@
 #define WIFI_PASSWD F("501416wf")
 
 namespace {
-SoftwareSerial g_serial(5, 6);  // RX, TX
+SoftwareSerial g_serial(3, 2);  // RX, TX
 em::EspNet g_net_manager(g_serial);
 }  // namespace
 

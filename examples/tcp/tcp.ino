@@ -6,7 +6,7 @@
 #define WIFI_PASSWD F("501416wf")
 
 namespace {
-SoftwareSerial g_serial(5, 6);  // RX, TX
+SoftwareSerial g_serial(3, 2);  // RX, TX
 em::EspNet g_net_manager(g_serial);
 em::TcpSession g_tcp_session_0(g_serial,
                                "192.168.1.30",  // remote ip
